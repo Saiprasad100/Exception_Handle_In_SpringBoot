@@ -21,7 +21,10 @@ public class UserController {
 
 		String msgTxt = "Good Evening EveryOne.....";
 
+//Demo stash (Bug number 129)
+ int b=101
 		int a = 10 / 0;
+
 		model.addAttribute("msg", msgTxt);
 		return "index";
 
