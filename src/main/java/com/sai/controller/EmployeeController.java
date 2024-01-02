@@ -10,6 +10,7 @@ public class EmployeeController {
 	@GetMapping("/welcome")
 	public String getGreetMsg(Model model) {
 
+
 		String s = null;
 		s.length();
 
